@@ -62,7 +62,7 @@ async function start() {
        else if (guess == "yes" && randomNumber !== computerNumber) {
         console.log("No cheating! How could you?! This is a family game..."); return theGame() }
         else if (guess == "no" || guess == "n") {
-        console.log ("Nope! You're going to have to try harder than that!")
+        console.log ("Ope!")
         return nextRound()} 
         else { console.log("What are you talking about? I think this game is too hard for you...")
         return theGame()}
